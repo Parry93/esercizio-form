@@ -41,13 +41,14 @@
 		<input type="checkbox" name="pro" id="pro">
 		
 		<label for="form-cc">Numero Carta</label>
-		<input id="form-cc" name="cc" type="text"/>
+		<input id="form-cc" name="cc" type="text" pattern="^[0-9]{16}$"/>
 		<label for="form-cvc">CVC</label>
-		<input id="form-cvc" name="cvc" type="text"/>
+		<input id="form-cvc" name="cvc" type="text"pattern="^[0-9]{3,4}$"/>
 		<label for="form-exp">Scadenza</label>
 		<input id="form-exp" name="exp" type="date"/>
 		<label for="form-address">Indirizzo di fatturazione</label>
-		<input type="text" id="form-address" name="address"/>
+		<input type="text" id="form-address" name="address"/><br>
+		<input type="submit" value="invio">
 	</form>
 
 </body>
