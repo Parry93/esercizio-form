@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Lezione HTML</title>
+	<style>
+		label {
+			display: block
+		}
+	</style>
+</head>
+
+<body>
+	<form>
+		<label for="fname">nome</label>
+		<input type="text" name="fname" id="fname">
+		<label for="lname">cognome</label>
+		<input type="text" name="lname" id="lname">
+		<label for="password"> password</label>
+		<input type="password" name="password" id="password">
+		<label for="mail"> email</label>
+		<input type="email" name="mail" id="mail">
+		<label for="nascita"> Data di nascita</label>
+		<input type="date" name="nascita" id="nascita">
+		<label for="numero"> numero di telefono</label>
+		<input type="number" name="numero" id="numero">
+		<label for="piano">piani</label>
+		<select name="piano" id="piano">
+			<option value="free"> free</option>
+			<optgroup label="piani a pagamento">
+			<option value="silver"> silver</option>
+			<option value="gold"> gold</option>
+			<option value="platinum"> platinum</option>
+			</optgroup>
+			
+		</select>
+		<label for="pro"> servizi pro</label>
+		<input type="checkbox" name="pro" id="pro">
+		
+		<label for="form-cc">Numero Carta</label>
+		<input id="form-cc" name="cc" type="text"/>
+		<label for="form-cvc">CVC</label>
+		<input id="form-cvc" name="cvc" type="text"/>
+		<label for="form-exp">Scadenza</label>
+		<input id="form-exp" name="exp" type="date"/>
+		<label for="form-address">Indirizzo di fatturazione</label>
+		<input type="text" id="form-address" name="address"/>
+	</form>
+
+</body>
+
+</html>
